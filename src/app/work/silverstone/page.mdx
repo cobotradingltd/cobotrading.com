@@ -1,0 +1,55 @@
+import logo from '@/images/clients/silverstone-apparel/logomark-dark.svg'
+import imageHero from './hero.webp'
+import imageJamesAnderson from './james-anderson.webp'
+
+export const caseStudy = {
+  client: 'Silverstone Apparel',
+  title: 'Enhancing global sourcing for fashion excellence',
+  description:
+    'Silverstone Apparel is a leading global fashion brand specializing in the design, production, and distribution of high-quality apparel.',
+  summary: [
+    'Silverstone Apparel, a globally recognized brand known for its high-quality sportswear and stylish outerwear, needed a reliable partner to streamline their supply chain and ensure timely delivery of essential textiles and apparel. COBO TRADING worked closely with Silverstone to enhance their sourcing process, providing high-quality materials from international markets while ensuring efficiency in logistics.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2024-02',
+  service: 'Outerwear',
+  testimonial: {
+    author: { name: 'James Anderson', role: 'CEO of Silverstone Apparel' },
+    content:
+      'COBO TRADING has been instrumental in improving our sourcing and logistics process. Their team worked closely with us to deliver high-quality textiles and apparel right on schedule, helping us meet our growing demand. Their efficiency and reliability have played a key role in our ability to stay ahead in the competitive fashion market.',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Collaboration
+
+Silverstone Apparel specializes in both performance and lifestyle wear, offering an extensive range of sportswear, outerwear, and casual clothing. With a growing global customer base, they required consistent access to top-quality fabrics and garments, sourced from trusted suppliers worldwide.
+
+COBO TRADING helped Silverstone Apparel source fabrics from suppliers across Europe and Asia, ensuring that all materials met their high-quality standards. In addition, COBO managed the logistics, ensuring that Silverstone’s production schedule remained on track despite global supply chain challenges.
+
+## What we offer
+
+<TagList>
+  <TagListItem>Sportswear</TagListItem>
+  <TagListItem>Outerwear</TagListItem>
+  <TagListItem>Casual clothing</TagListItem>
+  <TagListItem>Textile raw materials</TagListItem>
+</TagList>
+
+<StatList>
+  <StatListItem value="50,000+" label="Pieces of clothing" />
+  <StatListItem value="10,000+" label="Units of performance wear" />
+  <StatListItem value="45 days" label="Initial deliveries, with subsequent shipments" />
+</StatList>
+
+<Blockquote
+  author={{ name: 'James Anderson', role: 'CEO of Silverstone Apparel' }}
+  image={{ src: imageJamesAnderson }}
+>
+  COBO TRADING has been instrumental in improving our sourcing and logistics process. Their team worked closely with us to deliver high-quality textiles and apparel right on schedule, helping us meet our growing demand. Their efficiency and reliability have played a key role in our ability to stay ahead in the competitive fashion market.
+</Blockquote>
